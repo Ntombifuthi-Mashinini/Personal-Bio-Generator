@@ -46,3 +46,18 @@ console.log(`${lastName2}'s last name has ${lastName2.length} letters.`);
 console.log(`${firstName3}'s first name has ${firstName3.length} letters.`);
 console.log(`${lastName3}'s last name has ${lastName3.length} letters.`);
 console.log("\n");
+
+console.log(`First letter of ${firstName1}: ${firstName1[0]}`);
+console.log(`Last letter of ${hometown1}: ${hometown1[hometown1.length - 1]}`);
+console.log(`Secret code name: ${firstName1[0]}${lastName1[lastName1.length - 1]}`);
+console.log("\n");
+
+console.log(`First letter of ${firstName2}: ${firstName2[0]}`);
+console.log(`Last letter of ${hometown2}: ${hometown2[hometown2.length - 1]}`);
+console.log(`Secret code name: ${firstName2[0]}${lastName2[lastName2.length - 1]}`);
+console.log("\n");
+
+console.log(`First letter of ${firstName3}: ${firstName3[0]}`);
+console.log(`Last letter of ${hometown3}: ${hometown3[hometown3.length - 1]}`);
+console.log(`Secret code name: ${firstName3[0]}${lastName3[lastName3.length - 1]}`);
+console.log("\n");
