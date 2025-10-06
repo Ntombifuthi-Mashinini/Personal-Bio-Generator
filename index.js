@@ -36,3 +36,13 @@ console.log(`I’m from ${hometown3}.`);
 console.log(`I am ${age3} years old and I love ${hobby3}.`);
 console.log(`Fun fact: ${funFact3}`);
 console.log("\n");
+
+console.log(`${firstName1}'s first name has ${firstName1.length} letters.`);
+console.log(`${lastName1}'s last name has ${lastName1.length} letters.`);
+
+console.log(`${firstName2}'s first name has ${firstName2.length} letters.`);
+console.log(`${lastName2}'s last name has ${lastName2.length} letters.`);
+
+console.log(`${firstName3}'s first name has ${firstName3.length} letters.`);
+console.log(`${lastName3}'s last name has ${lastName3.length} letters.`);
+console.log("\n");
