@@ -80,3 +80,15 @@ console.log(`Index of "music" in ${firstName3}'s hobby: ${hobby3.indexOf("music"
 console.log(`Index of "sports" in ${firstName3}'s hobby: ${hobby3.indexOf("sports")}`);
 console.log(`Index of hobby in full bio: ${bio3.indexOf(hobby3)}`);
 console.log("\n");
+
+console.log("==============================");
+console.log("        PROFILE CARD");
+console.log("==============================");
+console.log(`Full Name: ${firstName1} ${lastName1}`);
+console.log(`Age: ${age1}`);
+console.log(`Hometown: ${hometown1}`);
+console.log(`Hobby: ${hobby1}`);
+console.log(`Fun Fact: ${funFact1}`);
+console.log("==============================\n");
+
+console.log("Thank you for reading these profiles!");
