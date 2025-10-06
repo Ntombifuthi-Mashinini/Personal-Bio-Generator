@@ -61,3 +61,22 @@ console.log(`First letter of ${firstName3}: ${firstName3[0]}`);
 console.log(`Last letter of ${hometown3}: ${hometown3[hometown3.length - 1]}`);
 console.log(`Secret code name: ${firstName3[0]}${lastName3[lastName3.length - 1]}`);
 console.log("\n");
+
+let bio1 = `Hello! My name is ${firstName1} ${lastName1}. I'm from ${hometown1}. I love ${hobby1}.`;
+let bio2 = `Hello! My name is ${firstName2} ${lastName2}. I'm from ${hometown2}. I love ${hobby2}.`;
+let bio3 = `Hello! My name is ${firstName3} ${lastName3}. I'm from ${hometown3}. I love ${hobby3}.`;
+
+console.log(`Index of "music" in ${firstName1}'s hobby: ${hobby1.indexOf("music")}`);
+console.log(`Index of "sports" in ${firstName1}'s hobby: ${hobby1.indexOf("sports")}`);
+console.log(`Index of hobby in full bio: ${bio1.indexOf(hobby1)}`);
+console.log("\n");
+
+console.log(`Index of "music" in ${firstName2}'s hobby: ${hobby2.indexOf("music")}`);
+console.log(`Index of "sports" in ${firstName2}'s hobby: ${hobby2.indexOf("sports")}`);
+console.log(`Index of hobby in full bio: ${bio2.indexOf(hobby2)}`);
+console.log("\n");
+
+console.log(`Index of "music" in ${firstName3}'s hobby: ${hobby3.indexOf("music")}`);
+console.log(`Index of "sports" in ${firstName3}'s hobby: ${hobby3.indexOf("sports")}`);
+console.log(`Index of hobby in full bio: ${bio3.indexOf(hobby3)}`);
+console.log("\n");
